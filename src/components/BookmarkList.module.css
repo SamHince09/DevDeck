@@ -1,0 +1,38 @@
+.bookmark-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.bookmark-item {
+    background-color: white;
+    border: 2px solid lavender;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.bookmark-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px black;
+}
+
+.favorite {
+    border-color: gold;
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.25);
+}
+
+.bookmark-item h3 {
+    color: rebeccapurple;
+    margin-top: 0;
+}
+
+.favorite-button {
+    margin-right: 20px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: lavender;
+    color: purple;
+    cursor: pointer;
+}
